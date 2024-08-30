@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-size: 24px;
+    background-color: #F9F9F9;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #707070;
+}
+.container{
+    width: 1720px;
+    margin: 0 auto;
+}
+.header{
+    padding: 30px 0;
+}
+
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+.nav-link{
+    margin-right: 30px;
+}
+
+.hero-flex,
+.about-us-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-wrap{
+    width: 580px;
+}
+.hero-img{
+    width: 660px;
+} 
+.hero,
+.about-us
+{
+    border-top: 3px solid #779611;
+    border-bottom: 3px solid #779611;
+}
+.hero-title{
+    font-size: 48px;
+    color: #779611;
+}
+button{
+    background-color: #779611;
+    border: none;
+    color: white;
+    font-size: 32px;
+    padding: 20px 60px;
+    border-radius: 50px;
+}
+
+.shop-list,
+.footer-flex{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop,
+.subscription{
+    padding: 20px 0;
+}
+
+.footer{
+    padding: 30px 0;
+}
+.shop-title,
+.shop-item-title{
+    color: #779611;
+}
+.about-us-title{
+    color: #779611;
+    font-size: 30px;
+}
+.about-us-text{
+    color: #779611;
+    font-size: 48px;
+}
+.about-us-wrap{
+    width: 560px;
+}
